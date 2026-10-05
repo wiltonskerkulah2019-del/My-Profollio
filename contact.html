@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+    <head><meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact | Wilton S. Kerkulah</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <link rel="stylesheet" href="css/contact.css">
+    </head>
+
+<body>
+
+    <header class="page-header">
+        <h1>Contact Me</h1>
+        <p>Let us connect and discuss technology, teaching, or collaboration</p>
+    </header>
+
+<nav aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="education.html">Education</a>
+    <a href="projects.html">Projects</a>
+    <a class="active" href="contact.html">Contact</a>
+</nav>
+<button id="theme-toggle" class="btn-toggle" type="button">🌙 Dark</button>
+
+<main>
+    <section>
+        <h2>Contact Information</h2>
+        <div class="contact-details">
+            <p><strong>Email</strong><br>
+                <a href="mailto:WILTONSKERKULAH@gmail.com">WILTONSKERKULAH@gmail.com</a>
+            </p>
+            <p><strong>Phone</strong><br>
+                <a href="tel:231776421506">231776421506</a>
+            </p>
+            <p><strong>Location</strong><br>Monrovia, Liberia</p>
+
+            <div class="social-links">
+                <p><strong>Social Media</strong></p>
+                <ul>
+                    <li><a href="https://facebook.com/wiltonskerkulah" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="https://wa.me/231776421506" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    <li><a href="https://t.me/WiltonSKerkulah" target="_blank" rel="noopener noreferrer" aria-label="Telegram" title="Telegram"><i class="fa-brands fa-telegram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>Send a Message</h2>
+         <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <input type="number" id="age" placeholder="Your Age" min="1" max="120" required>
+            <select id="sex" required>
+                <option value="" disabled selected>Select your sex</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+                <option value="Prefer not to say">Prefer not to say</option>
+            </select>
+            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn-primary">Send Message</button>
+            <p id="form-feedback" class="feedback-msg"></p>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 WILTON S. KERKULAH.</p>
+    </footer>
+
+    <script src="two.js"></script>
+</body>
+</html>
